@@ -3,15 +3,15 @@ package Gunler.Gun03;
 public class JavaDataTypes {
     public static void main(String[] args) {
 
-        byte byteDeger=4;
-        short shortDeger=3000;
-        int intDeger=200000;
-        long longDeger=1234599999;
+        byte byteDeger = 4;
+        short shortDeger = 3000;
+        int intDeger = 200000;
+        long longDeger = 1234599999;
 
-        float floatDeger=3.14f;
+        float floatDeger = 3.14f;
         double doubleDeger = 3.14;
 
-        char charDeger1 ='A';
+        char charDeger1 = 'A';
         char charDeger2 = 65;
 
         boolean boolDeger1 = true;

@@ -7,7 +7,7 @@ public class Ornek2 {
         // bütün değerleri ekrana yazdırınız.
 
         double oran = 40000.4567;
-        short ornekleme ;
+        short ornekleme;
 
         ornekleme = (short) oran;
         System.out.println("ornekleme = " + ornekleme);

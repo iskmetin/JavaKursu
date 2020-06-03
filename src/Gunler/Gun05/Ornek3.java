@@ -6,11 +6,11 @@ public class Ornek3 {
         // short u byte türüne çeviriniz.Taşan ve taşmayan değerler vererek
         // çıkan sonuçları dğerlendiriniz.
 
-        short sayi1=126;
-        short sayi2=200;
+        short sayi1 = 126;
+        short sayi2 = 200;
 
-        byte sayi3 = (byte)sayi1;
-        byte sayi4 = (byte)sayi2;
+        byte sayi3 = (byte) sayi1;
+        byte sayi4 = (byte) sayi2;
 
         System.out.println("sayi1 = " + sayi1);
         System.out.println("sayi2 = " + sayi2);

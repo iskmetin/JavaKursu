@@ -10,7 +10,7 @@ public class Ornek11 {
 
         int geceDerece = Integer.parseInt(geceStr);
         int gunduzDerece = Integer.parseInt(gunduzStr);
-        
+
         int toplamDerece = geceDerece + gunduzDerece;
 
         System.out.println("toplamDerece = " + toplamDerece);

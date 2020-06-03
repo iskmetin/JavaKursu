@@ -7,7 +7,7 @@ public class Ornek9 {
 
         String kenarUzunlugu = "5";
 
-        int kenarInt= Integer.parseInt(kenarUzunlugu);
+        int kenarInt = Integer.parseInt(kenarUzunlugu);
 
         int Cevre = kenarInt + kenarInt + kenarInt + kenarInt;
 

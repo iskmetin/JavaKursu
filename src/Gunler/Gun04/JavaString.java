@@ -13,15 +13,15 @@ public class JavaString {
         System.out.println("ad"); // ad
         // -> çift tırnak arasında yazılmayan her şey değişken kabul edilir, değeri yazılır
 
-        System.out.println(ad+" "+soyad);
-        System.out.println("ad"+"soyad");
+        System.out.println(ad + " " + soyad);
+        System.out.println("ad" + "soyad");
 
         //int toplam = a+b;
-        String fullName= ad +" "+ soyad;
+        String fullName = ad + " " + soyad;
         System.out.println("fullName = " + fullName);
 
         int yas = 45;
-        String bilgi = ad + " " + soyad + " "+ yas;
+        String bilgi = ad + " " + soyad + " " + yas;
         System.out.println(bilgi);
     }
 }

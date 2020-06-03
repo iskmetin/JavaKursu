@@ -5,13 +5,13 @@ public class Ornek10 {
         // String olarak verilen true veya false degerini, boolean türüne
         // çevirerek yazdırınız.
 
-         String cevapEvet = "true";
-         String cevapHayir = "false";
+        String cevapEvet = "true";
+        String cevapHayir = "false";
 
-         Boolean cevapE = Boolean.parseBoolean(cevapEvet);
-         Boolean cevapH = Boolean.parseBoolean(cevapHayir);
+        Boolean cevapE = Boolean.parseBoolean(cevapEvet);
+        Boolean cevapH = Boolean.parseBoolean(cevapHayir);
 
-        System.out.println("cevaplarınız = " + cevapE +" - "+ cevapH);
+        System.out.println("cevaplarınız = " + cevapE + " - " + cevapH);
 
 
     }

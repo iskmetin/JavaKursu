@@ -1,4 +1,5 @@
 package Gunler.Gun08;
+
 import java.util.Scanner;
 
 public class Soru2 {
@@ -14,7 +15,7 @@ public class Soru2 {
         int boslukIndex = adSoyad.indexOf(" ");
 
         String ad = adSoyad.substring(0, boslukIndex);
-        String Soyad = adSoyad.substring(boslukIndex+1);
+        String Soyad = adSoyad.substring(boslukIndex + 1);
 
         System.out.println("ad = " + ad);
         System.out.println("Soyad = " + Soyad);

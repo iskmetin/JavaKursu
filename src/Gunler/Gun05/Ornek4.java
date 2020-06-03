@@ -8,7 +8,7 @@ public class Ornek4 {
         double kilo = 75.5;
         int boy = 180;
 
-        String yazilacak = "boyunuz = "+boy+", kilonuz = "+ kilo;
+        String yazilacak = "boyunuz = " + boy + ", kilonuz = " + kilo;
         System.out.println(yazilacak);
 
     }

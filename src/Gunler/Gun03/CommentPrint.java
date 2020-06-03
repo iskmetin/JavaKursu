@@ -1,7 +1,7 @@
 package Gunler.Gun03;
 
 public class CommentPrint {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //bu benim ilk programım : yorum haline getirildi
 
         /*

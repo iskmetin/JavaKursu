@@ -9,7 +9,7 @@ public class Soru1 {
 
         Scanner oku = new Scanner(System.in);
         System.out.print("Lütfen Adınızı ve soyadınızı giriniz = ");
-        String adAd2Soyad=oku.nextLine();
+        String adAd2Soyad = oku.nextLine();
 
         //Ahmet Emin Yılmaz
         // A : adAd2Soyad.CharAt(0);
@@ -17,17 +17,17 @@ public class Soru1 {
         // Y : Son boşluğun indexinin 1 fazlası
 
         char adIlkHarf = adAd2Soyad.charAt(0);
-        char ad2IlkHarf = adAd2Soyad.charAt( adAd2Soyad.indexOf(" ")+1 );
-        char soyadIlkHarf = adAd2Soyad.charAt( adAd2Soyad.lastIndexOf(" ")+1 );
+        char ad2IlkHarf = adAd2Soyad.charAt(adAd2Soyad.indexOf(" ") + 1);
+        char soyadIlkHarf = adAd2Soyad.charAt(adAd2Soyad.lastIndexOf(" ") + 1);
 
         // 2.Yöntem
         int ilkBoslukIndex = adAd2Soyad.indexOf(" ");
         int sonBoslukIndex = adAd2Soyad.lastIndexOf(" ");
 
-        ad2IlkHarf = adAd2Soyad.charAt( ilkBoslukIndex+1 );
-        soyadIlkHarf = adAd2Soyad.charAt(sonBoslukIndex +1 );
+        ad2IlkHarf = adAd2Soyad.charAt(ilkBoslukIndex + 1);
+        soyadIlkHarf = adAd2Soyad.charAt(sonBoslukIndex + 1);
         /*****************************************************/
-        System.out.println(adIlkHarf+"."+ad2IlkHarf+"."+soyadIlkHarf+".");
+        System.out.println(adIlkHarf + "." + ad2IlkHarf + "." + soyadIlkHarf + ".");
     }
 }
 
