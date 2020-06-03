@@ -7,7 +7,7 @@ public class NarrowingCasting {
 //        double -> float -> long -> int -> char -> short -> byte : manuel dönüşüm
 
         double vergi = 6.956;
-        int yuvarlanmisVergi = (int)vergi;
+        int yuvarlanmisVergi = (int) vergi;
 
         System.out.println("yuvarlanmisVergi = " + yuvarlanmisVergi);
 
