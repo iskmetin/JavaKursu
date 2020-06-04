@@ -5,7 +5,7 @@
 - [Slaytlar](https://github.com/iskmetin/JavaKursu/tree/master/src/Slaytlar "Slaytlar");
 ## Repl.it
 - [Data_Types](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/datatypes "Data_types");
-- [Stringler](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/Stringler"Stringler");
-- [Aritmetik_operatorler](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/arithmeticOperators"Aritmetik operatorler");
+- [Stringler](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/Stringler "Stringler");
+- [Aritmetik operatorler](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/arithmeticOperators "Aritmetik_operatorler");
 
 
