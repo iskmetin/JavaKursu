@@ -7,5 +7,7 @@
 - [Data_Types](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/datatypes "Data_types");
 - [Stringler](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/Stringler "Stringler");
 - [Aritmetik operatorler](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/arithmeticOperators "Aritmetik_operatorler");
+- [if else statement (Turkce)](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/ifElseStatementTurkce"ifElseStatementTurkce");
+
 
 
