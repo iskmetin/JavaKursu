@@ -13,7 +13,7 @@ public class Arithmetic_operator_multiply_3 {
         //Oluşturulmuş olan double'lar hakkında,
         //Bu 4 doubleyi  birbiriyle çarpın ve sonuca  eşitleyin.
         //int sonucu yazdırın.
-        int sonuc=num1*num2*num3*num4;
+        int sonuc = num1 * num2 * num3 * num4;
         System.out.println(sonuc);
     }
 }

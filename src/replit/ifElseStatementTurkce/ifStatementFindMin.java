@@ -24,6 +24,5 @@ public class ifStatementFindMin {
         System.out.println(min);
 
 
-
     }
 }

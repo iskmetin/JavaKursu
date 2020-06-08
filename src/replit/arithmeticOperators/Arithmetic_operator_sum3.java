@@ -12,7 +12,7 @@ public class Arithmetic_operator_sum3 {
 
         //Verilen 3 tane int (num1,num2,num3),
         //Bu üç int'in toplamı yazdırın.
-        int sum=num1+num2+num3;
+        int sum = num1 + num2 + num3;
         System.out.println(sum);
     }
 }

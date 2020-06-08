@@ -11,7 +11,7 @@ public class Arithmetic_operator_reminder_1 {
         //Verilen int ler hakkında (num1, num2),
         //num1 'in   num2'ye bölümünden kalanı, int sonuc'a  eşitleyin.
         //int sonucu yazdırın.
-        int sonuc=num1%num2;
+        int sonuc = num1 % num2;
         System.out.println(sonuc);
     }
 }

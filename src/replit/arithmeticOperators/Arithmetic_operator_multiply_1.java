@@ -12,7 +12,7 @@ public class Arithmetic_operator_multiply_1 {
         //Verilen 3 double hakkında, (num1 , num2, num3),
         //
         //Bu üç double'ı birbiriyle çarpın ve cevabı  sonuca eşitleyin.
-        double sonuc=num1*num2*num3;
+        double sonuc = num1 * num2 * num3;
         System.out.println(sonuc);
     }
 }

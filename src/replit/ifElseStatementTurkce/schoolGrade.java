@@ -23,15 +23,15 @@ public class schoolGrade {
         int quizScore = scan.nextInt();
         int midTermScore = scan.nextInt();
         int finalScore = scan.nextInt();
-        int sonuc=(quizScore+midTermScore+finalScore)/3;
-        if (sonuc>=90){
+        int sonuc = (quizScore + midTermScore + finalScore) / 3;
+        if (sonuc >= 90) {
             System.out.println("Your grade is A");
-        }else if (sonuc>=70){
+        } else if (sonuc >= 70) {
             System.out.println("Your grade is B");
-        }else if (sonuc>=50) {
+        } else if (sonuc >= 50) {
             System.out.println("Your grade is C");
-        }else
-        { System.out.println("Your grade is F");
+        } else {
+            System.out.println("Your grade is F");
         }
     }
 }

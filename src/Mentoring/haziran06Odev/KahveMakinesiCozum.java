@@ -41,7 +41,7 @@ public class KahveMakinesiCozum {
         if (seker.toUpperCase().contains("Evet".toUpperCase())) {
             System.out.println("Kac seker olsun?");
             int kacSeker = sc.nextInt();
-            System.out.println(kacSeker+" seker ekleniyor.");
+            System.out.println(kacSeker + " seker ekleniyor.");
         } else if (seker.toUpperCase().contains("Hayir".toUpperCase())) {
             System.out.println("seker eklenmiyor");
 
@@ -51,26 +51,25 @@ public class KahveMakinesiCozum {
         }
         System.out.println("Hangi boyutta olsun?: \n" +
                 "  1.Buyuk\n" +
-                "  2.Orta\n"+
+                "  2.Orta\n" +
                 "  3.kucuk\n");
         sc.nextLine();
         String boyut = sc.nextLine();
 
         if (boyut.toUpperCase().contains("Buyuk".toUpperCase())) {
-            System.out.println("Kahveniz "+boyut+ " boy hazirlaniyor.");
+            System.out.println("Kahveniz " + boyut + " boy hazirlaniyor.");
 
         } else if (boyut.toUpperCase().contains("Orta".toUpperCase())) {
-            System.out.println("Kahveniz "+boyut+ " boy hazirlaniyor.");
+            System.out.println("Kahveniz " + boyut + " boy hazirlaniyor.");
 
-        }
-        else if (boyut.toUpperCase().contains("kucuk".toUpperCase())) {
-            System.out.println("Kahveniz "+boyut+ " boy hazirlaniyor.");
+        } else if (boyut.toUpperCase().contains("kucuk".toUpperCase())) {
+            System.out.println("Kahveniz " + boyut + " boy hazirlaniyor.");
 
-        }else {
+        } else {
             System.out.println("Hatali tuslama yaptiniz.Programi bastan baslatin");
             System.exit(0);
         }
-        System.out.println( hangiKahve+" "+boyut+" boy kahveniz hazirdir. Afiyet olsun !!! ");
+        System.out.println(hangiKahve + " " + boyut + " boy kahveniz hazirdir. Afiyet olsun !!! ");
 
 
     }

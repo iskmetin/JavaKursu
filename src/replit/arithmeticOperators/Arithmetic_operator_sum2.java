@@ -12,7 +12,7 @@ public class Arithmetic_operator_sum2 {
         int num4 = dp.nextInt();
         //Verilen 4 tane int vardır.
         //Int'lerin toplamlarını yazdırın.
-        int sum=num1+num2+num3+num4;
+        int sum = num1 + num2 + num3 + num4;
         System.out.println(sum);
     }
 }

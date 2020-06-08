@@ -11,7 +11,7 @@ public class Arithmetic_operator_division_1 {
         //Verilen iki int hakkında (num1,  num2),
         //İlk int'i ikinci int'e bölün.
         //Sonucu yazdırın.
-        int div=num1+num2;
+        int div = num1 + num2;
         System.out.println(div);
     }
 }

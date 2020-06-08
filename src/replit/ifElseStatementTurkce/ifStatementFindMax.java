@@ -24,6 +24,5 @@ public class ifStatementFindMax {
         System.out.println(max);
 
 
-
     }
 }

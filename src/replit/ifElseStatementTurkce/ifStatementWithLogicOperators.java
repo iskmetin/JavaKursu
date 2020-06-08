@@ -15,7 +15,7 @@ public class ifStatementWithLogicOperators {
         Scanner scan = new Scanner(System.in);
 
         String str = scan.nextLine();
-        if (str.equals( "Orange") & (str.length() == 6)) {
+        if (str.equals("Orange") & (str.length() == 6)) {
             System.out.println("Orange has six letters");
         } else if (str.equals("Apple") & str.length() == 5) {
             System.out.println("Apple has five letters");

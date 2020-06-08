@@ -12,7 +12,7 @@ public class Arithmetic_operator_sum {
         //
         //    int num1 = dp.nextInt();
         //    int num2 = dp.nextInt();
-        int sum=num1+num2;
+        int sum = num1 + num2;
         System.out.println(sum);
     }
 }

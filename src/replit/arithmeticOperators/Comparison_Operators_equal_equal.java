@@ -8,6 +8,6 @@ public class Comparison_Operators_equal_equal {
 
         int num1 = dp.nextInt();
         int num2 = dp.nextInt();
-        System.out.println(num1==num2);
+        System.out.println(num1 == num2);
     }
 }

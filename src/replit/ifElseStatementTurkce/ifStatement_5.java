@@ -16,11 +16,9 @@ public class ifStatement_5 {
         if (number > number2) {
             System.out.println("Hello World");
 
-        }
-        else if (number2 > number) {
+        } else if (number2 > number) {
             System.out.println("Not Hello World");
-        }
-        else
+        } else
             System.out.println("I love java");
     }
 }

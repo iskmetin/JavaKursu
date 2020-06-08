@@ -19,8 +19,8 @@ public class met {
         int sayi = scan.nextInt();
 
         System.out.println("birler basamağı = " + sayi % 10);
-        System.out.println("onlar basamağı = " + (sayi % 100 ) / 10);
-        System.out.println("yüzler basamağı = " + (sayi % 1000 ) / 100);
+        System.out.println("onlar basamağı = " + (sayi % 100) / 10);
+        System.out.println("yüzler basamağı = " + (sayi % 1000) / 100);
 
         System.out.println("girilen 3 basamaklı sayının rakamları toplamı = " + (sayi % 10 + (sayi % 100 - sayi % 10) / 10 + (sayi % 1000 - sayi % 100) / 100));
 

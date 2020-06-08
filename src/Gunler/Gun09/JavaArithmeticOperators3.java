@@ -3,9 +3,9 @@ package Gunler.Gun09;
 public class JavaArithmeticOperators3 {
     public static void main(String[] args) {
         // artırma ve azaltma operatörü
-        int a=5;
-        int b=2;
-        int k=0;
+        int a = 5;
+        int b = 2;
+        int k = 0;
 
         a++; // a nın değerini bir artır => a=a+1 le aynı -> 6
         ++a; // a nın degerini bir artır => a=a+1 le aynı -> 7

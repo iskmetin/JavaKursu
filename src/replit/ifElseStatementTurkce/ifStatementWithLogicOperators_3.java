@@ -15,7 +15,7 @@ public class ifStatementWithLogicOperators_3 {
 
         String str = scan.nextLine();
 
-        if (!str.isEmpty() & str.length()==14&str.contains("i love java")) {
+        if (!str.isEmpty() & str.length() == 14 & str.contains("i love java")) {
             System.out.println("String is i love java and 14 character.");
         } else if (!str.isEmpty() & str.toLowerCase().contains("i love java".toLowerCase())) {
             System.out.println("String is I love java");

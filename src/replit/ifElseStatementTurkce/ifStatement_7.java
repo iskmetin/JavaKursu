@@ -17,6 +17,5 @@ public class ifStatement_7 {
             System.out.println("number is a ODD number");
 
 
-
     }
 }

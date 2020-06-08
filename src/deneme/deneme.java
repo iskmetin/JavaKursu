@@ -1,11 +1,21 @@
 package deneme;
 
+import java.util.Scanner;
+
 public class deneme {
     public static void main(String[] args) {
-        int a=55;
-        int b=9;
-        double c=0.09;
-        int sonuc=(int) ((a+b)*c);
-        System.out.println(sonuc);
+
+        Scanner text = new Scanner(System.in);
+        System.out.println(" bir string giriniz");
+        String kelime = text.nextLine();
+
+        if (kelime.contains("a")) {
+            String ykelime = kelime.substring(kelime.indexOf("a")).toUpperCase();
+            System.out.println(ykelime);
+            System.out.println(kelime);
+        } else
+            System.out.println("a yoktur");
     }
+
 }
+

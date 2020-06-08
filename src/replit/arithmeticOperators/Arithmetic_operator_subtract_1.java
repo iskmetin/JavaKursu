@@ -11,7 +11,7 @@ public class Arithmetic_operator_subtract_1 {
 
         //Verilen 4 tane int vardır.
         //Int'lerin toplamlarını yazdırın.
-        int fark=num1-num2;
+        int fark = num1 - num2;
         System.out.println(fark);
     }
 }

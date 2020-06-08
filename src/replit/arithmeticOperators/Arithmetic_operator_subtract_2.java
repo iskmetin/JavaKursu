@@ -15,7 +15,7 @@ public class Arithmetic_operator_subtract_2 {
         //    int num2 = dp.nextInt();
         //    int num3 = dp.nextInt();
         //    int num4 = dp.nextInt();
-        int fark=num1-num2-num3-num4;
+        int fark = num1 - num2 - num3 - num4;
         System.out.println(fark);
     }
 }
