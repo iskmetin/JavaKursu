@@ -11,11 +11,9 @@ public class soru2 {
         int y = oku.nextInt();
 
         if (x == 0 || y == 0) {
-            System.out.println("y ekseni ustunde");
-
-            if (y == 0 & x != 0) {
+            if (y == 0 && x != 0) {
                 System.out.println("x ekseni ustunde");
-            } else if (x == 0 & y != 0) {
+            } else if (x == 0 && y != 0) {
                 System.out.println("y ekseni ustunde");
             } else
                 System.out.println("orijinde");
