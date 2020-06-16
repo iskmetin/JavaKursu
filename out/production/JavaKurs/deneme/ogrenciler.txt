@@ -1,0 +1,2 @@
+metin isik;123456;SayısalPuanı;SözelPuanı
+nasilsin;456789;iyiyim;onbes
