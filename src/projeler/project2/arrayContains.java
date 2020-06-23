@@ -1,5 +1,7 @@
 package projeler.project2;
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class arrayContains {
 
@@ -55,5 +57,31 @@ public class arrayContains {
 
 //        Koda burdan başla
 //        UseThisArray1 ve UseThisArray2 array isimlerini kullan
+        boolean[] seri = new boolean[UseThisArray2.length];
+        for (int i = 0; i < UseThisArray2.length; i++) {
+
+            int finalI1 = i;
+            if (IntStream.of(UseThisArray1).anyMatch(x -> x == UseThisArray2[finalI1])) {
+                seri[i] = true;
+
+            } else {
+                seri[i] = false;
+            }
+
+
+        }
+        String[] strseri = new String[seri.length];
+        for(int i=0;i<strseri.length;i++){
+            strseri[i]=String.valueOf(seri[i]);
+        }
+
+        if (Arrays.stream(strseri).anyMatch("false"::equals)) {
+            System.out.println(false);
+
+        }else{
+            System.out.println(true);
+        }
     }
 }
+
+

@@ -56,7 +56,7 @@ public class removeDuplicates {
 
         int[] useThisArray = new int[arr.length];
 
-        for(int i = 0 ; i < useThisArray.length ; i++){
+        for (int i = 0; i < useThisArray.length; i++) {
 
             int num = Integer.parseInt(arr[i]);
 
@@ -71,7 +71,30 @@ public class removeDuplicates {
 // Kodlamaya burdan başla.bu satırdan önceki satirlarda hicbirşeyi  degiştirme. Kullanacağın array   --> useThisLine
 
 
+       removeDuplicates(useThisArray);
+        System.out.println(Arrays.toString(useThisArray));
     }
+    public static int[] removeDuplicates(int[] arr) {
 
+        int end = arr.length;
 
+        for (int i = 0; i < end; i++) {
+            for (int j = i + 1; j < end; j++) {
+                if (arr[i] == arr[j]) {
+                    int shiftLeft = j;
+                    for (int k = j+1; k < end; k++, shiftLeft++) {
+                        arr[shiftLeft] = arr[k];
+                    }
+                    end--;
+                    j--;
+                }
+            }
+        }
+
+        int[] whitelist = new int[end];
+        for(int i = 0; i < end; i++){
+            whitelist[i] = arr[i];
+        }
+        return whitelist;
+    }
 }

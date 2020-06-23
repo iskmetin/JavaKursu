@@ -1,6 +1,4 @@
 package projeler.project2;
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class minNumber {
 
@@ -24,11 +22,29 @@ public class minNumber {
      */
 
 
-
-
     public static void main(String[] args) {
 
+        int[][] dizi = {{1, 2, 3}, {2, 3, 1}, {5, 5, 5}, {2, 1, 3}};
+        int minnum = dizi[0][0];
+        for (int i = 0; i < dizi.length; i++) {
+            for (int a = 0; a < dizi[i].length; a++) {
+                if (minnum > dizi[i][a]) {
+                    minnum = dizi[i][a];
+                }
 
+            }
+
+        }
+        System.out.print(minnum);
+
+
+    }
 }
 
-}
+
+
+
+
+
+
+

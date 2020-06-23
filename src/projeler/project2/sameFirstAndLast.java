@@ -40,9 +40,15 @@ public class sameFirstAndLast {
       //        code start here
 
       // Koda burdan başlayin
+        System.out.println(Integer.valueOf( useThisArray[0]) == Integer.valueOf( useThisArray[useThisArray.length-1]));
+
+
 
 
     }
 
 
 }
+
+
+

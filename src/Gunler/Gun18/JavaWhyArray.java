@@ -1,4 +1,4 @@
-package Gun18;
+package Gunler.Gun18;
 
 public class JavaWhyArray {
     public static void main(String[] args) {

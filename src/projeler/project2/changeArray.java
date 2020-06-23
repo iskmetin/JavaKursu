@@ -40,7 +40,13 @@ public class changeArray {
 
 //        Koda burdan başla
 //        kullanman gereken -> UseThisArray
+        for(int i=0;i<UseThisArray.length;i++){
+            if(UseThisArray[i].equalsIgnoreCase("orange")){
+                UseThisArray[i]="Apple";
+            }
 
+        }
+        System.out.println(Arrays.toString(UseThisArray));
 
 
     }

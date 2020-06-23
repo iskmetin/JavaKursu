@@ -43,6 +43,12 @@ public class reverseArr {
      //        code start here
 
      //        Koda burdan başlayın
+        String[] useThisArray2 = new String[useThisArray.length];
+        for(int i=0;i<useThisArray.length;i++){
+            useThisArray2[i]=useThisArray[(useThisArray.length-i)-1];
+        }
+        System.out.println(Arrays.toString(useThisArray2));
+
 
     }
 

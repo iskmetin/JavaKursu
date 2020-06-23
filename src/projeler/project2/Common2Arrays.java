@@ -59,11 +59,22 @@ public class Common2Arrays {
 
 
  */
-
-
-
+        int last1=array1.length;
+        int last2=array2.length;
+        if(array1[0]==array2[0]|array1[last1-1]==array2[last2-1]){
+            System.out.println(true);
+        }
+        else{
+            System.out.println(false);
+        }
 
 
     }
 
 }
+
+
+
+
+
+

@@ -1,5 +1,4 @@
 package projeler.project2;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class diffBetweenMaxMin {
@@ -30,7 +29,9 @@ public class diffBetweenMaxMin {
     return tipi  int dir
      */
 
-    public static void main(String[] args) {
+
+
+    public static int  main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
 
@@ -40,17 +41,33 @@ public class diffBetweenMaxMin {
 
         int[] useThisArray = new int[strArr.length];
 
-        for(int i = 0 ; i< strArr.length ; i++){
+        for (int i = 0; i < strArr.length; i++) {
 
-            int num =Integer.parseInt(strArr[i]);
+            int num = Integer.parseInt(strArr[i]);
             useThisArray[i] = num;
 
         }
+
 
     // Your code start here. Don't remove or change anything before this line. Your array is -> useThisArray in line 27
     // Kodlamaya burdan başla.Bu satırdan önceki satırlarda hiçbirşeyi kaldırma ve degiştirme. Kullanacağın array 27.ci satırda  --> useThisArray
 
 
-    }
 
-}
+        int max = useThisArray[0], min = useThisArray[0];
+        for (int i = 0; i < useThisArray.length; i++) {
+            if (max < useThisArray[i]) {
+                max = useThisArray[i];
+            }
+            if (min > useThisArray[i]) {
+                min = useThisArray[i];
+            }
+        }
+        System.out.println( max - min);
+        return max - min;
+
+
+
+
+}}
+
