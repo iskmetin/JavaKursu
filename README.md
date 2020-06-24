@@ -11,5 +11,6 @@
 - [if else statement (Turkce)](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/ifElseStatementTurkce "ifElseStatementTurkce");
 - [Loops](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/Loops "Loops");
 - [Arrays](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/arrays "Arrays");
+- [Methodlar](https://github.com/iskmetin/JavaKursu/tree/master/src/replit/methods "Methodlar");
 
 
