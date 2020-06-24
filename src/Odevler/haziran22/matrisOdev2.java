@@ -16,8 +16,6 @@ public class matrisOdev2 {
                 dizi1[i][j] = (int) (Math.random() * 10);
             }
         }
-
-
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 yenidizi[i][j] = 0;
@@ -35,6 +33,5 @@ public class matrisOdev2 {
                 System.out.println(Arrays.toString(dizi1[i]) +"       " + Arrays.toString(dizi2[i])+"        "  + Arrays.toString(yenidizi[i]));
             }
         }
-
     }
 }

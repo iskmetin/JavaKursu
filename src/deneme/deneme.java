@@ -2,30 +2,28 @@ package deneme;
 
 public class deneme {
     public static void main(String[] args) {
+        int[] arr = {25, 7, 7, 14, 14, 14, 21, 3, 3, 3, 5, 12, 12, 13, 13};
+        System.out.println(
 
+                countSorted(arr));
 
-//creating two matrices
-        int a[][] = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
-        int b[][] = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
-
-//creating another matrix to store the multiplication of two matrices
-        int c[][] = new int[3][3];  //3 rows and 3 columns
-
-//multiplying and printing multiplication of 2 matrices
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                c[i][j] = 0;
-                for (int k = 0; k < 3; k++) {
-                    c[i][j] += a[i][k] * b[k][j];
-                }//end of k loop
-                System.out.print(c[i][j] + " ");  //printing matrix element
-            }//end of j loop
-            System.out.println();//new line
-        }
     }
+
+    static int countSorted(int[] array) {
+        int count = 1;
+        int max = 1;
+        for (int k = 1; k < array.length; k++) {
+            if (array[k - 1] <= array[k]) {
+                count++;
+            } else {
+                if (count > max) {
+                    max = count;
+                }
+                count = 1;
+            }
+        }
+        return max;
+    }
+
+
 }
-
-
-
-
-
