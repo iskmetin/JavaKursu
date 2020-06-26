@@ -1,4 +1,7 @@
 package projeler.project3;
+
+import java.util.Scanner;
+
 public class SubtractionSquare {
 
     /*
@@ -6,14 +9,12 @@ public class SubtractionSquare {
      /*
 
     Given one method name is substSquare
-
     This method get two ints as parameter
-
     return type is int
-
     Get  square of the sum of the numbers using getSumOfSquares method ,
-
     Parameter 1 square of the sum + Parameter 2 square of the sum  = your result
+     */
+    /*
 
     for example:
     int 1 = 10
@@ -50,12 +51,27 @@ Parameter 1 toplamin karesi+Parameter 1 toplamin karesi= sonuc
 
     return 3250
     */
+    public static void main(String[] args) {
+        Scanner oku=new Scanner(System.in);
+        System.out.println("bir sayi giriniz");
+        int num1=oku.nextInt();
+        System.out.println("ikinci bir sayi giriniz");
+        int num2=oku.nextInt();
+        System.out.println(substSquare(num1,num2));
+    }
 
 
-        public int  substSquare(int num1 , int num2){
+        public static int  substSquare(int num1, int num2){
+            int sum1=0,sum2=0;
+            for(int i=1;i<=num1;i++){
+                sum1+=i;
+            }
+            for(int i=1;i<=num2;i++){
+                sum2+=i;
+            }
 
 
-            return 0;
+            return (sum1*sum1)+(sum2*sum2);
         }
 
     /*

@@ -58,9 +58,14 @@ public class getPopulation {
 
      */
     public int populationOfCountry(String[] countryNames , int[] countryPopulations , String str){
+        int pop = -1;
+        for(int i = 0; i<countryNames.length; i++){
+            if(countryNames[i].equals(str)){
+                pop = countryPopulations[i];
+            }
+        }
 
-
-        return 0;
+        return pop;
     }
 
 

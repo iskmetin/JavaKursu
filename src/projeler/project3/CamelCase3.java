@@ -1,6 +1,8 @@
 package projeler.project3;
 
-public class CamelCase {
+import java.util.Arrays;
+
+public class CamelCase3 {
     public static void main(String[] args) {
 
 
@@ -41,14 +43,18 @@ public class CamelCase {
      */
         System.out.println(camelcase("my family live in united states"));
     }
-    public static String camelcase(String sentence) {
-        String rStr = "";
-        String[] arr = sentence.split(" ");
-        for (String str : arr) {
-            rStr += str.substring(0, 1).toUpperCase() + str.substring(1) + " ";
+    public static String camelcase(String sentence){
+        String[] sentencedizi=sentence.split(" ");
+
+        for(int i=0; i<sentencedizi.length;i++){
+            sentencedizi[i]=sentencedizi[i].substring(0,1).toUpperCase() + sentencedizi[i].substring(1);
         }
 
-        return rStr.substring(0, rStr.length() - 1);
+        String str = String.join(",", sentencedizi).replaceAll(","," ");
+       // String str =Arrays.deepToString(sentencedizi);
+
+
+        return str;
     }
 
 

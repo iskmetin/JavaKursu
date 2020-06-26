@@ -84,7 +84,7 @@ class Test1 {
     @Test
     public void CamelCase1(){
 
-        CamelCase c1 = new CamelCase();
+        CamelCase3 c1 = new CamelCase3();
 
         String result = c1.camelcase("i live in usa");
 
@@ -96,7 +96,7 @@ class Test1 {
     @Test
     public void CamelCase2(){
 
-        CamelCase c1 = new CamelCase();
+        CamelCase3 c1 = new CamelCase3();
 
         String result = c1.camelcase("say that an element in");
 
