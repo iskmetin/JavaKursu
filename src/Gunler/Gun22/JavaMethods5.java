@@ -1,4 +1,4 @@
-package Gun22;
+package Gunler.Gun22;
 
 // Kullanıcıya aşağıdaki gibi bir menü çıkartarak sürekli değişkenleri alınız ve
 // her bir menü elemanını değer alan fonksiyon olarak yazınız.

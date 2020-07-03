@@ -1,4 +1,4 @@
-package Gun22;
+package Gunler.Gun22;
 
 public class JavaMethods3 {
     public static void main(String[] args) {

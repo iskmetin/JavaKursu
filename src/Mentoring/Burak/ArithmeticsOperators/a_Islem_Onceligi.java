@@ -1,4 +1,4 @@
-package Burak.ArithmeticsOperators;
+package Mentoring.Burak.ArithmeticsOperators;
 
 public class a_Islem_Onceligi {
 

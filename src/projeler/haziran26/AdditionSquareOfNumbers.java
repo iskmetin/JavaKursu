@@ -1,6 +1,18 @@
 package projeler.haziran26;
 
+import java.util.Scanner;
+
 public class AdditionSquareOfNumbers {
+    public static void main(String[] args) {
+
+        Scanner oku = new Scanner(System.in);
+        System.out.println("bir sayi gir");
+        int sayi1 = oku.nextInt();
+        System.out.println("ikinci bir sayi gir");
+        int sayi2 = oku.nextInt();
+        System.out.println(substSquare(sayi1, sayi2));
+
+    }
 
     /*
     Create one method name is getSumOfSquares
@@ -46,7 +58,7 @@ public class AdditionSquareOfNumbers {
     return 3250
 
      */
-    public int getSumOfSquares(int num) {
+    public static int getSumOfSquares(int num) {
         int sum = 0;
         for (int i = 1; i <= num; i++) {
             sum += i;
@@ -54,7 +66,7 @@ public class AdditionSquareOfNumbers {
         return sum * sum;
     }
 
-    public int substSquare(int num1, int num2) {
+    public static int substSquare(int num1, int num2) {
         int getNum1 = getSumOfSquares(num1);
         int getNum2 = getSumOfSquares(num2);
 

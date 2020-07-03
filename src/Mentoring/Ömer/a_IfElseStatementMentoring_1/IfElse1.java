@@ -1,4 +1,4 @@
-package Ömer.a_IfElseStatementMentoring_1;
+package Mentoring.Ömer.a_IfElseStatementMentoring_1;
 
 import java.util.Scanner;
 

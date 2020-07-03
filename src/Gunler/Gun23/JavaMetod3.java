@@ -27,12 +27,13 @@ public class JavaMetod3 {
         System.out.println(ad+" "+yas);
         return ad+" "+yas;
     }
-
     public static String KullaniciBilgiYaz(String ad, int yas)
     {
         System.out.println(ad+" "+yas);
         return ad+" "+yas;
     }
+
+
 
     public static double toplam(double a, double b)
     {

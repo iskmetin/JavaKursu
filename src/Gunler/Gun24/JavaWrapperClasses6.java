@@ -3,16 +3,16 @@ package Gunler.Gun24;
 public class JavaWrapperClasses6 {
     public static void main(String[] args) {
         // program sadece rakam veya harf gibi veya true false gibi,
-        // basit değerler saklayacaksa hazfızada çok yer kaplamasın diye
-        // aynı tiplerin basit yani primitive tilerini oluşturalım.
-        // eğer bu değerlden fazlası gerekecekse ozaman bunların ilk harfi büyük
+        // basit değerler saklayacaksa hafızada çok yer kaplamasın diye
+        // aynı tiplerin basit yani primitive tiplerini oluşturalım.
+        // eğer bu değerlerden fazlası gerekecekse ozaman bunların ilk harfi büyük
         // halleri olan tipleri kullanılsın
 
         int a=5;
         String strInt = String.valueOf(a); // bu ise basit sadece bir sayı
 
         Integer b=6;
-        String strInteger = b.toString();   // yani bu tipin içinde gerekli çok ça metod var
+        String strInteger = b.toString();   // yani bu tipin içinde gerekli çokça metod var
         // içinde çokça metod olan tiplere Wrapper Class deniyor.
         // wrapper kaplamak demek methodlari kapladik icinde cok method var - Hülya tuna dedi
 

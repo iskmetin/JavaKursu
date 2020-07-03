@@ -20,7 +20,7 @@ public class JavaPrintfAndFormat5 {
         System.out.printf("2. a=%d oran=%f  pi=%f \n", a,oran, Math.PI);
         System.out.printf("3. a=%10d oran=%f \n", a,oran); // 10d 10 hane kullan
         System.out.printf("4. a=%-10d oran=%f \n", a,oran); // 10d 10 hane kullan ama sola dayalı yaz
-        System.out.printf("5. a=%010d oran=%f \n", a,oran); // 10d 10 hane kullan, ama boş halere 0 ata
+        System.out.printf("5. a=%010d oran=%f \n", a,oran); // 10d 10 hane kullan, ama boş hanelere 0 ata
 
         System.out.printf("6. a=%d oran=%.3f \n", a,oran); // noktadan sonra 3 hane kullan
         System.out.printf("7. a=%d oran=%.9f \n", a,oran); // noktadan sonra 9 hane kullan

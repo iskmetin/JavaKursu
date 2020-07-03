@@ -1,4 +1,4 @@
-package Gun22;
+package Gunler.Gun22;
 
 import java.util.Arrays;
 import java.util.Scanner;
